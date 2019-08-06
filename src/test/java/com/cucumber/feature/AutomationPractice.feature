@@ -39,3 +39,10 @@ Scenario: Verify the user able to Sign out
 When user logged in to site
 And User able to click the signout button
 Then user need to be at sign out screen
+
+
+Scenario: Verify the user able to Sign out
+
+When user logged in to site
+And User able to click the signout button
+Then user need to be at sign out screen
